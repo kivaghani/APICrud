@@ -7,11 +7,11 @@ const prodcuts = async () => {
 };
 
 const updateProduct = async (product) => {
-    return httpService.put(`${endPointBaseURL}/products/${product.id}`, product); // Update product by ID
+    return httpService.put(`${endPointBaseURL}/products/${product.id}`, product); 
 };
 
 const deleteProduct = async (id) => {
-    return httpService.delete(`${endPointBaseURL}/products/${id}`); // Delete product by ID
+    return httpService.delete(`${endPointBaseURL}/products/${id}`);
 };
 
 export default {

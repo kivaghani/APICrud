@@ -11,7 +11,4 @@ const loginUser = async (requestBody) => {
 
 export default {
     loginUser,
-    // forgotPassword,
-    // verifyOtp,
-    // changePassword
 }

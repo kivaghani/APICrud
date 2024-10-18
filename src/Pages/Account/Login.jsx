@@ -41,7 +41,6 @@ const Login = () => {
                 initialValues={{ username: 'emilys', password: 'emilyspass' }}
                 validationSchema={validationSchema}
                 onSubmit={(values, { setSubmitting }) => {
-                    // dispatch(adminLogin(values));
                     handleLogin(values);
                     setSubmitting(false);
                 }}
